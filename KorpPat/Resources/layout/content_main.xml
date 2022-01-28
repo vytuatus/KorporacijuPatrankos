@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main"
+    android:id="@+id/rootlayout">
+     
+    <Button
+        android:id="@+id/button_restart"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:id="@+id/button_right"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/right"/>
+
+     <Button
+        android:id="@+id/button_left"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/left"
+        android:layout_toLeftOf="@id/button_right"/>
+     
+    <Button
+        android:id="@+id/button_down"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/down"/>
+
+    <Button
+        android:id="@+id/button_up"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_toRightOf="@id/button_down"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20sp"
+        android:background="@drawable/up"/>
+
+   
+       
+   
+
+ 
+
+
+
+</RelativeLayout>

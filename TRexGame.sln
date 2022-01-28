@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TRexGame", "TRexGame\TRexGame.csproj", "{CE399A9D-00AF-467B-811B-D05380B830C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KorpPat", "KorpPat\KorpPat.csproj", "{293C7214-03B8-4ABB-9F9C-99ECF29AE044}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE399A9D-00AF-467B-811B-D05380B830C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE399A9D-00AF-467B-811B-D05380B830C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE399A9D-00AF-467B-811B-D05380B830C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE399A9D-00AF-467B-811B-D05380B830C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{293C7214-03B8-4ABB-9F9C-99ECF29AE044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{293C7214-03B8-4ABB-9F9C-99ECF29AE044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{293C7214-03B8-4ABB-9F9C-99ECF29AE044}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{293C7214-03B8-4ABB-9F9C-99ECF29AE044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{293C7214-03B8-4ABB-9F9C-99ECF29AE044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{293C7214-03B8-4ABB-9F9C-99ECF29AE044}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BC8BEF7-52F9-4AE4-92C5-970D3A598D33}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,813 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin ../../../Assets/button-press.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:../../../Assets/button-press.wav;button-press.wav
+
+#begin ../../../Assets/Cannon_Shot.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:../../../Assets/Cannon_Shot.wav;Cannon_Shot.wav
+
+#begin ../../../Assets/CannonsSpriteSheet.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/CannonsSpriteSheet.png;CannonsSpriteSheet.png
+
+#begin ../../../Assets/Crowd_Chanting.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:../../../Assets/Crowd_Chanting.wav;Crowd_Chanting.wav
+
+#begin ../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v1.png;End_Anim_Korp_Patrank_Game_Background_cannon_v1.png
+
+#begin ../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v10.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v10.png;End_Anim_Korp_Patrank_Game_Background_cannon_v10.png
+
+#begin ../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v11.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v11.png;End_Anim_Korp_Patrank_Game_Background_cannon_v11.png
+
+#begin ../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v12.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v12.png;End_Anim_Korp_Patrank_Game_Background_cannon_v12.png
+
+#begin ../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v13.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v13.png;End_Anim_Korp_Patrank_Game_Background_cannon_v13.png
+
+#begin ../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v14.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v14.png;End_Anim_Korp_Patrank_Game_Background_cannon_v14.png
+
+#begin ../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v15.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v15.png;End_Anim_Korp_Patrank_Game_Background_cannon_v15.png
+
+#begin ../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v16.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v16.png;End_Anim_Korp_Patrank_Game_Background_cannon_v16.png
+
+#begin ../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v17.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v17.png;End_Anim_Korp_Patrank_Game_Background_cannon_v17.png
+
+#begin ../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v18.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v18.png;End_Anim_Korp_Patrank_Game_Background_cannon_v18.png
+
+#begin ../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v2.png;End_Anim_Korp_Patrank_Game_Background_cannon_v2.png
+
+#begin ../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v3.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v3.png;End_Anim_Korp_Patrank_Game_Background_cannon_v3.png
+
+#begin ../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v4.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v4.png;End_Anim_Korp_Patrank_Game_Background_cannon_v4.png
+
+#begin ../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v5.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v5.png;End_Anim_Korp_Patrank_Game_Background_cannon_v5.png
+
+#begin ../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v6.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v6.png;End_Anim_Korp_Patrank_Game_Background_cannon_v6.png
+
+#begin ../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v7.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v7.png;End_Anim_Korp_Patrank_Game_Background_cannon_v7.png
+
+#begin ../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v8.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v8.png;End_Anim_Korp_Patrank_Game_Background_cannon_v8.png
+
+#begin ../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v9.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/End_Anim_Korp_Patrank_Game_Background_cannon_v9.png;End_Anim_Korp_Patrank_Game_Background_cannon_v9.png
+
+#begin ../../../Assets/hit.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:../../../Assets/hit.wav;hit.wav
+
+#begin ../../../Assets/Korp_Patrank_Game Background_cannon_game_v1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game Background_cannon_game_v1.png;Korp_Patrank_Game Background_cannon_game_v1.png
+
+#begin ../../../Assets/Korp_Patrank_Game Background_cannon_game_v10.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game Background_cannon_game_v10.png;Korp_Patrank_Game Background_cannon_game_v10.png
+
+#begin ../../../Assets/Korp_Patrank_Game Background_cannon_game_v11.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game Background_cannon_game_v11.png;Korp_Patrank_Game Background_cannon_game_v11.png
+
+#begin ../../../Assets/Korp_Patrank_Game Background_cannon_game_v12.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game Background_cannon_game_v12.png;Korp_Patrank_Game Background_cannon_game_v12.png
+
+#begin ../../../Assets/Korp_Patrank_Game Background_cannon_game_v2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game Background_cannon_game_v2.png;Korp_Patrank_Game Background_cannon_game_v2.png
+
+#begin ../../../Assets/Korp_Patrank_Game Background_cannon_game_v3.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game Background_cannon_game_v3.png;Korp_Patrank_Game Background_cannon_game_v3.png
+
+#begin ../../../Assets/Korp_Patrank_Game Background_cannon_game_v4.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game Background_cannon_game_v4.png;Korp_Patrank_Game Background_cannon_game_v4.png
+
+#begin ../../../Assets/Korp_Patrank_Game Background_cannon_game_v5.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game Background_cannon_game_v5.png;Korp_Patrank_Game Background_cannon_game_v5.png
+
+#begin ../../../Assets/Korp_Patrank_Game Background_cannon_game_v6.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game Background_cannon_game_v6.png;Korp_Patrank_Game Background_cannon_game_v6.png
+
+#begin ../../../Assets/Korp_Patrank_Game Background_cannon_game_v7.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game Background_cannon_game_v7.png;Korp_Patrank_Game Background_cannon_game_v7.png
+
+#begin ../../../Assets/Korp_Patrank_Game Background_cannon_game_v8.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game Background_cannon_game_v8.png;Korp_Patrank_Game Background_cannon_game_v8.png
+
+#begin ../../../Assets/Korp_Patrank_Game Background_cannon_game_v9.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game Background_cannon_game_v9.png;Korp_Patrank_Game Background_cannon_game_v9.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background.png;Korp_Patrank_Game_Background.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_cannon_game_chanting_v1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_cannon_game_chanting_v1.png;Korp_Patrank_Game_Background_cannon_game_chanting_v1.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_cannon_game_chanting_v2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_cannon_game_chanting_v2.png;Korp_Patrank_Game_Background_cannon_game_chanting_v2.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_v1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_v1.png;Korp_Patrank_Game_Background_v1.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_v10.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_v10.png;Korp_Patrank_Game_Background_v10.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_v11.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_v11.png;Korp_Patrank_Game_Background_v11.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_v12.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_v12.png;Korp_Patrank_Game_Background_v12.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_v13.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_v13.png;Korp_Patrank_Game_Background_v13.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_v14.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_v14.png;Korp_Patrank_Game_Background_v14.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_v15.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_v15.png;Korp_Patrank_Game_Background_v15.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_v16.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_v16.png;Korp_Patrank_Game_Background_v16.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_v17.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_v17.png;Korp_Patrank_Game_Background_v17.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_v18.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_v18.png;Korp_Patrank_Game_Background_v18.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_v19.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_v19.png;Korp_Patrank_Game_Background_v19.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_v2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_v2.png;Korp_Patrank_Game_Background_v2.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_v20.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_v20.png;Korp_Patrank_Game_Background_v20.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_v21.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_v21.png;Korp_Patrank_Game_Background_v21.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_v22.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_v22.png;Korp_Patrank_Game_Background_v22.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_v23.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_v23.png;Korp_Patrank_Game_Background_v23.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_v24.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_v24.png;Korp_Patrank_Game_Background_v24.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_v25.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_v25.png;Korp_Patrank_Game_Background_v25.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_v3.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_v3.png;Korp_Patrank_Game_Background_v3.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_v4.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_v4.png;Korp_Patrank_Game_Background_v4.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_v5.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_v5.png;Korp_Patrank_Game_Background_v5.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_v6.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_v6.png;Korp_Patrank_Game_Background_v6.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_v7.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_v7.png;Korp_Patrank_Game_Background_v7.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_v8.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_v8.png;Korp_Patrank_Game_Background_v8.png
+
+#begin ../../../Assets/Korp_Patrank_Game_Background_v9.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Korp_Patrank_Game_Background_v9.png;Korp_Patrank_Game_Background_v9.png
+
+#begin ../../../Assets/Korporaciju_Patrankos.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:../../../Assets/Korporaciju_Patrankos.wav;Korporaciju_Patrankos.wav
+
+#begin ../../../Assets/Korporaciju_Patrankos_old.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:../../../Assets/Korporaciju_Patrankos_old.wav;Korporaciju_Patrankos_old.wav
+
+#begin ../../../Assets/Running_guy_spritesheet.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/Running_guy_spritesheet.png;Running_guy_spritesheet.png
+
+#begin ../../../Assets/score-reached.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:../../../Assets/score-reached.wav;score-reached.wav
+
+#begin ../../../Assets/TrexSpritesheet.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/TrexSpritesheet.png;TrexSpritesheet.png
+
+#begin CannonsSpriteSheet.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:CannonsSpriteSheet.png
+
+#begin Office_Furniture_SpriteSheet.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Office_Furniture_SpriteSheet.png
+
